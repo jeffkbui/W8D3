@@ -1,0 +1,47 @@
+/* PHASE 3: Layout */
+
+.content {
+  display: flex ;
+  flex-wrap: wrap ;
+  flex-direction: row ;
+  background-color: goldenrod ;
+  min-height: 200px ;
+  width: 80%;
+  border-top: 0 ;
+}
+
+.content-sidebar {
+  display: flex ;
+  background-color: chartreuse ;
+  min-height: 200px ;
+  width: 20% ;
+}
+
+.content-main {
+  display: flex ;
+  background-color: maroon ;
+  min-height: 200px ;
+  width: 80% ;
+}
+
+.middle {
+  display: flex ;
+  justify-content: center ;
+}
+
+.footsies {
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  position: fixed ;
+  bottom: 0 ;
+  width: 100%
+}
+
+.footsies > div {
+
+}
+
+.footsies > a {
+
+}
