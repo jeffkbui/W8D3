@@ -14,9 +14,10 @@ Array.prototype.myMap = function (callBack) {
 
 Array.prototype.myReduce = function(callBack, initialValue) {
   let acc = initialValue ;
-  if (!initialValue) {
+  if (acc === undefined) {
     acc = this.shift() ;
   }
+  // let acc = initialValue != undefined ? initialValue : this.shift() ;
   this.myEach((el) => acc = callBack(acc, el)) ;
   return acc ;
 }
